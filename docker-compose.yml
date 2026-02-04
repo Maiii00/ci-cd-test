@@ -3,7 +3,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: ci-cd-test:latest
+    image: dockeruser677/ci-cd-test:latest
     ports:
       - "3000:3000"
     environment:
